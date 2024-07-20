@@ -1,0 +1,19 @@
+.homeContainer{
+    min-height: 100vh;
+    padding: 20px 27rem ;
+}
+
+.postsSection{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: white;
+}
+@media only screen and (max-width:840px){
+    .homeContainer{
+       padding: 10px 20px;
+    }
+}

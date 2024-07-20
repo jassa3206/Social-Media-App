@@ -1,0 +1,43 @@
+.userItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  .profileImageContainer{
+    height: 20%;
+    width: 20%;
+  }
+  .profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .followButton, .unfollowButton {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .followButton {
+    background-color: blue;
+    color: white;
+  }
+  
+  .unfollowButton {
+    background-color: red;
+    color: white;
+  }
+  

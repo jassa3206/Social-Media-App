@@ -1,0 +1,62 @@
+.Post{
+    height: 100vh;
+    /* min-height: 800px; */
+    padding: 10rem 27rem;
+}
+.box{
+    height: 400px;
+    width: 100%;
+}
+.box div h2{
+    text-align: center;
+    color: rgb(226, 226, 226);
+    padding: 10px 0;
+}
+.postBody{
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+border: 1px solid white;
+border-radius: 8px;
+padding: 10px;
+height: 80px;
+width: 60%;
+margin: 10px 0;
+background: transparent;
+color: white;
+}
+.hashtags{
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 10px;
+height: 50px;
+
+    width: 60%;
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+}
+.button{
+    background: #363636;
+    border: none;
+    border-radius: 8px;
+    color: #ffff;
+    padding: 0.6rem 0rem;
+    width: 7.5rem;
+    font-weight: 600;
+}
+.button:hover{
+    background: #252424;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width:840px){
+    .Post{
+        padding: 1rem 8px;
+    }
+    
+  } 
